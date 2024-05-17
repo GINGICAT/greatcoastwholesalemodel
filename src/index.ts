@@ -185,6 +185,7 @@ export type ProcessSVGInput = {
   garmentType: typeof CUSTOM_GARMENT_TYPE.SHORT_SLEEVE_TSHIRT;
   packSelections: PackSelection[];
   svgBase64: string;
+  productImage: string;
 };
 
 export type ProcessSVGResponse = {
