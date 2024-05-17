@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.CUSTOM_GARMENT_TYPE = exports.CUSTOM_COLORS = exports.CUSTOM_PACKS = exports.SUPPORT_EMAIL_MAILTO = exports.CUSTOMER_SERVICE_EMAIL_MAILTO = exports.CUSTOMER_SERVICE_EMAIL = exports.SALES_PHONE_EMAIL_MAILTO = exports.SALES_PHONE_EMAIL = exports.SALES_PHONE_NUMBER_STR = exports.SALES_PHONE_NUMBER = void 0;
+exports.CUSTOM_GARMENT_TYPE = exports.CUSTOM_COLORS = exports.CUSTOM_PACKS = exports.PALETTE_SVG_COLOR = exports.SUPPORT_EMAIL_MAILTO = exports.CUSTOMER_SERVICE_EMAIL_MAILTO = exports.CUSTOMER_SERVICE_EMAIL = exports.SALES_PHONE_EMAIL_MAILTO = exports.SALES_PHONE_EMAIL = exports.SALES_PHONE_NUMBER_STR = exports.SALES_PHONE_NUMBER = void 0;
 exports.SALES_PHONE_NUMBER = 2315887001;
 exports.SALES_PHONE_NUMBER_STR = '+1 (231) 588-7001';
 exports.SALES_PHONE_EMAIL = 'karenc@woodchart.com';
@@ -8,6 +8,7 @@ exports.SALES_PHONE_EMAIL_MAILTO = 'mailto:karenc@woodchart.com';
 exports.CUSTOMER_SERVICE_EMAIL = 'laura@woochart.com';
 exports.CUSTOMER_SERVICE_EMAIL_MAILTO = 'mailto:laura@woochart.com';
 exports.SUPPORT_EMAIL_MAILTO = 'mailto:support@woochart.com';
+exports.PALETTE_SVG_COLOR = { dark: '#111b33', light: '#fcfbee' };
 exports.CUSTOM_PACKS = {
     S: { shortName: 'S', longName: 'Small' },
     M: { shortName: 'M', longName: 'Medium' },

@@ -5,6 +5,10 @@ export declare const SALES_PHONE_EMAIL_MAILTO = "mailto:karenc@woodchart.com";
 export declare const CUSTOMER_SERVICE_EMAIL = "laura@woochart.com";
 export declare const CUSTOMER_SERVICE_EMAIL_MAILTO = "mailto:laura@woochart.com";
 export declare const SUPPORT_EMAIL_MAILTO = "mailto:support@woochart.com";
+export declare const PALETTE_SVG_COLOR: {
+    dark: string;
+    light: string;
+};
 export declare const CUSTOM_PACKS: {
     S: {
         shortName: string;
@@ -31,6 +35,7 @@ export declare const CUSTOM_PACKS: {
         longName: string;
     };
 };
+export type CUSTOM_COLORS_KEY = keyof typeof CUSTOM_COLORS;
 export declare const CUSTOM_COLORS: {
     COASTAL_BLUE: {
         colorCode: string;

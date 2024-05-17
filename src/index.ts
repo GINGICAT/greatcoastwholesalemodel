@@ -6,6 +6,8 @@ export const CUSTOMER_SERVICE_EMAIL = 'laura@woochart.com';
 export const CUSTOMER_SERVICE_EMAIL_MAILTO = 'mailto:laura@woochart.com';
 export const SUPPORT_EMAIL_MAILTO = 'mailto:support@woochart.com';
 
+export const PALETTE_SVG_COLOR = { dark: '#111b33', light: '#fcfbee' };
+
 export const CUSTOM_PACKS = {
   S: { shortName: 'S', longName: 'Small' },
   M: { shortName: 'M', longName: 'Medium' },
@@ -17,6 +19,7 @@ export const CUSTOM_PACKS = {
   // { shortName: 'PACK B', longName: 'Pack B - (1S, 3M, 4L, 3XL)' },
 };
 
+export type CUSTOM_COLORS_KEY = keyof typeof CUSTOM_COLORS;
 export const CUSTOM_COLORS = {
   COASTAL_BLUE: { colorCode: '#c7ddf1', title: 'Coastal Blue' },
   PURPLE_MIST: { colorCode: '#b4a4c2', title: 'Purple Mist' },
