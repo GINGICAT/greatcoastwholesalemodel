@@ -48,12 +48,14 @@ export const CUSTOM_GARMENT_TYPE = {
   LONG_SLEEVE_TSHIRT: {
     title: 'T-Shirts',
     description: 'Long sleeve',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.PURPLE_MIST, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.GREAT_GREEN],
     light: [CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.RAIN_CLOUD, CUSTOM_COLORS.NAVY],
   },
   CREW_NECK: {
     title: 'Crew Neck',
     description: 'Screen printed',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [
       CUSTOM_COLORS.COASTAL_BLUE,
       CUSTOM_COLORS.PURPLE_MIST,
@@ -72,6 +74,7 @@ export const CUSTOM_GARMENT_TYPE = {
   CREW_NECK_CH: {
     title: 'Crew Neck',
     description: 'Chenille lettering',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [],
     light: [
       CUSTOM_COLORS.DEEP_WATER,
@@ -86,12 +89,14 @@ export const CUSTOM_GARMENT_TYPE = {
   HOODIES: {
     title: 'Hoodies',
     description: 'Screen printed',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.PURPLE_MIST, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.GREAT_GREEN],
     light: [CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.RAIN_CLOUD, CUSTOM_COLORS.BURLAP],
   },
   HOODIES_CH: {
     title: 'Hoodies',
     description: 'Chenille lettering',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [],
     light: [
       CUSTOM_COLORS.DEEP_WATER,
@@ -106,30 +111,35 @@ export const CUSTOM_GARMENT_TYPE = {
   FULL_ZIP_HOODIE: {
     title: 'Full-zip Hoodies',
     description: '',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.SANDBAR],
     light: [CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.SUNSET_ROSE],
   },
   WOMENS_V_NECK: {
     title: 'Womens V-Neck',
     description: '',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.GREAT_GREEN],
     light: [CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.LIGHT_DENIM_HEATHER],
   },
   WOMENS_PONCHOS: {
     title: 'Womens Ponchos',
     description: '',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.SUNRISE, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.GRAPHITE],
     light: [],
   },
   BLANKETS: {
     title: 'Blankets',
     description: '',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.ATHLETIC_GREY],
     light: [],
   },
   NAVY_HOOD_SHOW: {
     title: 'Hoodies Show Special',
     description: '',
+    productId: 'gid://shopify/Product/8556361580777',
     dark: [],
     light: [CUSTOM_COLORS.WASHED_NAVY, CUSTOM_COLORS.BLACK],
   },
@@ -172,7 +182,7 @@ export type PackSelection = {
 
 export type ProcessSVGInput = {
   customer: CustomerSimple;
-  garmentType: CUSTOM_GARMENT_TYPE_KEY;
+  garmentType: typeof CUSTOM_GARMENT_TYPE.SHORT_SLEEVE_TSHIRT;
   packSelections: PackSelection[];
   svgBase64: string;
 };

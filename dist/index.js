@@ -47,12 +47,14 @@ exports.CUSTOM_GARMENT_TYPE = {
     LONG_SLEEVE_TSHIRT: {
         title: 'T-Shirts',
         description: 'Long sleeve',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.PURPLE_MIST, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.GREAT_GREEN],
         light: [exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.DEEP_WATER, exports.CUSTOM_COLORS.RAIN_CLOUD, exports.CUSTOM_COLORS.NAVY],
     },
     CREW_NECK: {
         title: 'Crew Neck',
         description: 'Screen printed',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [
             exports.CUSTOM_COLORS.COASTAL_BLUE,
             exports.CUSTOM_COLORS.PURPLE_MIST,
@@ -71,6 +73,7 @@ exports.CUSTOM_GARMENT_TYPE = {
     CREW_NECK_CH: {
         title: 'Crew Neck',
         description: 'Chenille lettering',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [],
         light: [
             exports.CUSTOM_COLORS.DEEP_WATER,
@@ -85,12 +88,14 @@ exports.CUSTOM_GARMENT_TYPE = {
     HOODIES: {
         title: 'Hoodies',
         description: 'Screen printed',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.PURPLE_MIST, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.GREAT_GREEN],
         light: [exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.DEEP_WATER, exports.CUSTOM_COLORS.RAIN_CLOUD, exports.CUSTOM_COLORS.BURLAP],
     },
     HOODIES_CH: {
         title: 'Hoodies',
         description: 'Chenille lettering',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [],
         light: [
             exports.CUSTOM_COLORS.DEEP_WATER,
@@ -105,30 +110,35 @@ exports.CUSTOM_GARMENT_TYPE = {
     FULL_ZIP_HOODIE: {
         title: 'Full-zip Hoodies',
         description: '',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.SANDBAR],
         light: [exports.CUSTOM_COLORS.DEEP_WATER, exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNSET_ROSE],
     },
     WOMENS_V_NECK: {
         title: 'Womens V-Neck',
         description: '',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.GREAT_GREEN],
         light: [exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.LIGHT_DENIM_HEATHER],
     },
     WOMENS_PONCHOS: {
         title: 'Womens Ponchos',
         description: '',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNRISE, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.GRAPHITE],
         light: [],
     },
     BLANKETS: {
         title: 'Blankets',
         description: '',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.ATHLETIC_GREY],
         light: [],
     },
     NAVY_HOOD_SHOW: {
         title: 'Hoodies Show Special',
         description: '',
+        productId: 'gid://shopify/Product/8556361580777',
         dark: [],
         light: [exports.CUSTOM_COLORS.WASHED_NAVY, exports.CUSTOM_COLORS.BLACK],
     },

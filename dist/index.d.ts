@@ -111,6 +111,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     LONG_SLEEVE_TSHIRT: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -123,6 +124,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     CREW_NECK: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -135,6 +137,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     CREW_NECK_CH: {
         title: string;
         description: string;
+        productId: string;
         dark: never[];
         light: {
             colorCode: string;
@@ -144,6 +147,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     HOODIES: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -156,6 +160,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     HOODIES_CH: {
         title: string;
         description: string;
+        productId: string;
         dark: never[];
         light: {
             colorCode: string;
@@ -165,6 +170,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     FULL_ZIP_HOODIE: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -177,6 +183,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     WOMENS_V_NECK: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -189,6 +196,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     WOMENS_PONCHOS: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -198,6 +206,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     BLANKETS: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -207,6 +216,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     NAVY_HOOD_SHOW: {
         title: string;
         description: string;
+        productId: string;
         dark: never[];
         light: {
             colorCode: string;
@@ -251,7 +261,7 @@ export type PackSelection = {
 };
 export type ProcessSVGInput = {
     customer: CustomerSimple;
-    garmentType: CUSTOM_GARMENT_TYPE_KEY;
+    garmentType: typeof CUSTOM_GARMENT_TYPE.SHORT_SLEEVE_TSHIRT;
     packSelections: PackSelection[];
     svgBase64: string;
 };
