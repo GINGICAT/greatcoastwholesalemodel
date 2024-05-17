@@ -255,3 +255,15 @@ export type ProcessSVGInput = {
     packSelections: PackSelection[];
     svgBase64: string;
 };
+export type ProcessSVGResponse = {
+    success?: {
+        svgId: string;
+        svgUrl: string;
+        pdfUrl: string;
+    };
+    debug?: {
+        outputStr: string;
+        errorStr: string;
+        errorCode?: number;
+    };
+};
