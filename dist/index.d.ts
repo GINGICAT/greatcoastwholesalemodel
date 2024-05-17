@@ -214,3 +214,44 @@ export declare const CUSTOM_GARMENT_TYPE: {
         }[];
     };
 };
+export type CustomerSimple = {
+    displayName: string;
+    emailAddress?: {
+        emailAddress?: string;
+    };
+    firstName?: string;
+    id: string;
+    lastName?: string;
+    phoneNumber?: {
+        phoneNumber?: string;
+    };
+    defaultAddress?: {
+        address1?: string;
+        address2?: string;
+        city?: string;
+        company?: string;
+        firstName?: string;
+        formatted: string;
+        id: string;
+        lastName?: string;
+        phoneNumber?: {
+            phoneNumber?: string;
+        };
+        territoryCode?: string;
+        zip?: string;
+        zoneCode?: string;
+    };
+};
+export type PackSelection = {
+    variantId: string;
+    color: string;
+    pack: string;
+    palette: 'dark' | 'light';
+    count: string;
+};
+export type ProcessSVGInput = {
+    customer: CustomerSimple;
+    garmentType: CUSTOM_GARMENT_TYPE_KEY;
+    packSelections: PackSelection[];
+    svgBase64: string;
+};
