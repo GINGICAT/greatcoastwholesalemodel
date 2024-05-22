@@ -15,7 +15,8 @@ export const CUSTOM_PACKS = {
   XL: { shortName: 'XL', longName: 'X-Large' },
   XXL: { shortName: 'XXL', longName: 'XX-Large' },
   // { shortName: '3XL', longName: '3X-Large' },
-  PACK_A: { shortName: 'PACK A', longName: 'Pack A - (1 S, 3 M, 4 L, 3 XL)' },
+  // TODO: revise Pack A - its not 18 pieces
+  PACK_A: { shortName: 'PACK A', longName: 'Pack A - (2 S, 4 M, 5 L, 4 XL, 3 XXL)' },
   // { shortName: 'PACK B', longName: 'Pack B - (1S, 3M, 4L, 3XL)' },
 };
 
@@ -51,14 +52,14 @@ export const CUSTOM_GARMENT_TYPE = {
   LONG_SLEEVE_TSHIRT: {
     title: 'T-Shirts',
     description: 'Long sleeve',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8590371750121',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.PURPLE_MIST, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.GREAT_GREEN],
     light: [CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.RAIN_CLOUD, CUSTOM_COLORS.NAVY],
   },
   CREW_NECK: {
     title: 'Crew Neck',
     description: 'Screen printed',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8592077684969',
     dark: [
       CUSTOM_COLORS.COASTAL_BLUE,
       CUSTOM_COLORS.PURPLE_MIST,
@@ -77,7 +78,7 @@ export const CUSTOM_GARMENT_TYPE = {
   CREW_NECK_CH: {
     title: 'Crew Neck',
     description: 'Chenille lettering',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8592117563625',
     dark: [],
     light: [
       CUSTOM_COLORS.DEEP_WATER,
@@ -92,14 +93,14 @@ export const CUSTOM_GARMENT_TYPE = {
   HOODIES: {
     title: 'Hoodies',
     description: 'Screen printed',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8592110092521',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.PURPLE_MIST, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.GREAT_GREEN],
     light: [CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.RAIN_CLOUD, CUSTOM_COLORS.BURLAP],
   },
   HOODIES_CH: {
     title: 'Hoodies',
     description: 'Chenille lettering',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8592118546665',
     dark: [],
     light: [
       CUSTOM_COLORS.DEEP_WATER,
@@ -114,14 +115,14 @@ export const CUSTOM_GARMENT_TYPE = {
   FULL_ZIP_HOODIE: {
     title: 'Full-zip Hoodies',
     description: '',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8592120774889',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.SANDBAR],
     light: [CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.SUNSET_ROSE],
   },
   WOMENS_V_NECK: {
     title: 'Womens V-Neck',
     description: '',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8592124575977',
     dark: [CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.GREAT_GREEN],
     light: [CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.LIGHT_DENIM_HEATHER],
   },
