@@ -263,6 +263,7 @@ export type PackSelection = {
     pack: string;
     palette: 'dark' | 'light';
     count: string;
+    price: string;
 };
 export type ProcessSVGInput = {
     customer: CustomerSimple;
