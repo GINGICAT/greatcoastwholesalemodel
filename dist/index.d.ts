@@ -185,10 +185,9 @@ export declare const CUSTOM_GARMENT_TYPE: {
             title: string;
         }[];
     };
-    WOMENS_V_NECK: {
+    WOMENS_TSHIRT: {
         title: string;
         description: string;
-        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -197,16 +196,6 @@ export declare const CUSTOM_GARMENT_TYPE: {
             colorCode: string;
             title: string;
         }[];
-    };
-    WOMENS_PONCHOS: {
-        title: string;
-        description: string;
-        productId: string;
-        dark: {
-            colorCode: string;
-            title: string;
-        }[];
-        light: never[];
     };
     BLANKETS: {
         title: string;

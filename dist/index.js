@@ -116,19 +116,11 @@ exports.CUSTOM_GARMENT_TYPE = {
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.SANDBAR],
         light: [exports.CUSTOM_COLORS.DEEP_WATER, exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNSET_ROSE],
     },
-    WOMENS_V_NECK: {
-        title: 'Womens V-Neck',
-        description: '',
-        productId: 'gid://shopify/Product/8592124575977',
-        dark: [exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.GREAT_GREEN],
-        light: [exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.LIGHT_DENIM_HEATHER],
-    },
-    WOMENS_PONCHOS: {
-        title: 'Womens Ponchos',
-        description: '',
-        productId: 'gid://shopify/Product/8556361580777',
-        dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNRISE, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.GRAPHITE],
-        light: [],
+    WOMENS_TSHIRT: {
+        title: 'Womens T-Shirts',
+        description: 'Short sleeve',
+        dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.PURPLE_MIST, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.GREAT_GREEN],
+        light: [exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.DEEP_WATER, exports.CUSTOM_COLORS.RAIN_CLOUD, exports.CUSTOM_COLORS.NAVY],
     },
     BLANKETS: {
         title: 'Blankets',
