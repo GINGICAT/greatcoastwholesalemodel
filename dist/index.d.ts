@@ -8,6 +8,7 @@ export declare const SUPPORT_EMAIL_MAILTO = "mailto:support@woochart.com";
 export declare const PALETTE_SVG_COLOR: {
     dark: string;
     light: string;
+    chenille: string;
 };
 export declare const CUSTOM_PACKS: {
     S: {
@@ -50,6 +51,14 @@ export declare const CUSTOM_COLORS: {
         title: string;
     };
     GREAT_GREEN: {
+        colorCode: string;
+        title: string;
+    };
+    COOL_TEAL: {
+        colorCode: string;
+        title: string;
+    };
+    CAMPFIRE_SMOKE: {
         colorCode: string;
         title: string;
     };
@@ -188,6 +197,7 @@ export declare const CUSTOM_GARMENT_TYPE: {
     WOMENS_TSHIRT: {
         title: string;
         description: string;
+        productId: string;
         dark: {
             colorCode: string;
             title: string;
@@ -206,16 +216,6 @@ export declare const CUSTOM_GARMENT_TYPE: {
             title: string;
         }[];
         light: never[];
-    };
-    NAVY_HOOD_SHOW: {
-        title: string;
-        description: string;
-        productId: string;
-        dark: never[];
-        light: {
-            colorCode: string;
-            title: string;
-        }[];
     };
 };
 export type CustomerSimple = {
@@ -250,7 +250,7 @@ export type PackSelection = {
     variantId: string;
     color: string;
     pack: string;
-    palette: 'dark' | 'light';
+    palette: 'dark' | 'light' | 'chenille';
     count: string;
     price: string;
 };

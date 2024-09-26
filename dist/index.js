@@ -8,7 +8,7 @@ exports.SALES_PHONE_EMAIL_MAILTO = 'mailto:karenc@woodchart.com';
 exports.CUSTOMER_SERVICE_EMAIL = 'laura@woochart.com';
 exports.CUSTOMER_SERVICE_EMAIL_MAILTO = 'mailto:laura@woochart.com';
 exports.SUPPORT_EMAIL_MAILTO = 'mailto:support@woochart.com';
-exports.PALETTE_SVG_COLOR = { dark: '#111b33', light: '#fcfbee' };
+exports.PALETTE_SVG_COLOR = { dark: '#111b33', light: '#fcfbee', chenille: '#fcfbee' };
 exports.CUSTOM_PACKS = {
     S: { shortName: 'S', longName: 'Small' },
     M: { shortName: 'M', longName: 'Medium' },
@@ -21,10 +21,12 @@ exports.CUSTOM_PACKS = {
     // { shortName: 'PACK B', longName: 'Pack B - (1S, 3M, 4L, 3XL)' },
 };
 exports.CUSTOM_COLORS = {
-    COASTAL_BLUE: { colorCode: '#c7ddf1', title: 'Coastal Blue' },
-    PURPLE_MIST: { colorCode: '#b4a4c2', title: 'Purple Mist' },
+    COASTAL_BLUE: { colorCode: '#c7ddf1', title: 'Coastal Blue-CB' },
+    PURPLE_MIST: { colorCode: '#b4a4c2', title: 'Purple Mist PM' },
     SANDBAR: { colorCode: '#ece5da', title: 'Sandbar' },
     GREAT_GREEN: { colorCode: '#89a197', title: 'Great Green' },
+    COOL_TEAL: { colorCode: '#7bb5af', title: 'Cool Teal' },
+    CAMPFIRE_SMOKE: { colorCode: '#b7aea9', title: 'Campfire Smoke' },
     DEEP_WATER: { colorCode: '#465861', title: 'Deep Water' },
     RAIN_CLOUD: { colorCode: '#656c68', title: 'Rain Cloud' },
     NAVY: { colorCode: '#111b33', title: 'Navy' },
@@ -49,9 +51,9 @@ exports.CUSTOM_GARMENT_TYPE = {
     LONG_SLEEVE_TSHIRT: {
         title: 'T-Shirts',
         description: 'Long sleeve',
-        productId: 'gid://shopify/Product/8590371750121',
-        dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.PURPLE_MIST, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.GREAT_GREEN],
-        light: [exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.DEEP_WATER, exports.CUSTOM_COLORS.RAIN_CLOUD, exports.CUSTOM_COLORS.NAVY],
+        productId: 'gid://shopify/Product/8739407200489',
+        dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.CAMPFIRE_SMOKE, exports.CUSTOM_COLORS.COOL_TEAL, exports.CUSTOM_COLORS.GREAT_GREEN],
+        light: [exports.CUSTOM_COLORS.COOL_TEAL, exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.RAIN_CLOUD, exports.CUSTOM_COLORS.DEEP_WATER],
     },
     CREW_NECK: {
         title: 'Crew Neck',
@@ -119,21 +121,15 @@ exports.CUSTOM_GARMENT_TYPE = {
     WOMENS_TSHIRT: {
         title: 'Womens T-Shirts',
         description: 'Short sleeve',
+        productId: 'gid://shopify/Product/8738559000809',
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.PURPLE_MIST, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.GREAT_GREEN],
         light: [exports.CUSTOM_COLORS.GREAT_GREEN, exports.CUSTOM_COLORS.DEEP_WATER, exports.CUSTOM_COLORS.RAIN_CLOUD, exports.CUSTOM_COLORS.NAVY],
     },
     BLANKETS: {
         title: 'Blankets',
         description: '',
-        productId: 'gid://shopify/Product/8556361580777',
+        productId: 'gid://shopify/Product/8677102616809',
         dark: [exports.CUSTOM_COLORS.COASTAL_BLUE, exports.CUSTOM_COLORS.SUNSET_ROSE, exports.CUSTOM_COLORS.SANDBAR, exports.CUSTOM_COLORS.ATHLETIC_GREY],
         light: [],
-    },
-    NAVY_HOOD_SHOW: {
-        title: 'Hoodies Show Special',
-        description: '',
-        productId: 'gid://shopify/Product/8556361580777',
-        dark: [],
-        light: [exports.CUSTOM_COLORS.WASHED_NAVY, exports.CUSTOM_COLORS.BLACK],
     },
 };

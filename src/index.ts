@@ -6,7 +6,7 @@ export const CUSTOMER_SERVICE_EMAIL = 'laura@woochart.com';
 export const CUSTOMER_SERVICE_EMAIL_MAILTO = 'mailto:laura@woochart.com';
 export const SUPPORT_EMAIL_MAILTO = 'mailto:support@woochart.com';
 
-export const PALETTE_SVG_COLOR = { dark: '#111b33', light: '#fcfbee' };
+export const PALETTE_SVG_COLOR = { dark: '#111b33', light: '#fcfbee', chenille: '#fcfbee' };
 
 export const CUSTOM_PACKS = {
   S: { shortName: 'S', longName: 'Small' },
@@ -22,10 +22,12 @@ export const CUSTOM_PACKS = {
 
 export type CUSTOM_COLORS_KEY = keyof typeof CUSTOM_COLORS;
 export const CUSTOM_COLORS = {
-  COASTAL_BLUE: { colorCode: '#c7ddf1', title: 'Coastal Blue' },
-  PURPLE_MIST: { colorCode: '#b4a4c2', title: 'Purple Mist' },
+  COASTAL_BLUE: { colorCode: '#c7ddf1', title: 'Coastal Blue-CB' },
+  PURPLE_MIST: { colorCode: '#b4a4c2', title: 'Purple Mist PM' },
   SANDBAR: { colorCode: '#ece5da', title: 'Sandbar' },
   GREAT_GREEN: { colorCode: '#89a197', title: 'Great Green' },
+  COOL_TEAL: {colorCode: '#7bb5af', title: 'Cool Teal'},
+  CAMPFIRE_SMOKE: {colorCode: '#b7aea9', title: 'Campfire Smoke'},
   DEEP_WATER: { colorCode: '#465861', title: 'Deep Water' },
   RAIN_CLOUD: { colorCode: '#656c68', title: 'Rain Cloud' },
   NAVY: { colorCode: '#111b33', title: 'Navy' },
@@ -52,9 +54,9 @@ export const CUSTOM_GARMENT_TYPE = {
   LONG_SLEEVE_TSHIRT: {
     title: 'T-Shirts',
     description: 'Long sleeve',
-    productId: 'gid://shopify/Product/8590371750121',
-    dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.PURPLE_MIST, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.GREAT_GREEN],
-    light: [CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.RAIN_CLOUD, CUSTOM_COLORS.NAVY],
+    productId: 'gid://shopify/Product/8739407200489',
+    dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.CAMPFIRE_SMOKE, CUSTOM_COLORS.COOL_TEAL, CUSTOM_COLORS.GREAT_GREEN],
+    light: [CUSTOM_COLORS.COOL_TEAL, CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.RAIN_CLOUD, CUSTOM_COLORS.DEEP_WATER],
   },
   CREW_NECK: {
     title: 'Crew Neck',
@@ -122,22 +124,16 @@ export const CUSTOM_GARMENT_TYPE = {
   WOMENS_TSHIRT: {
     title: 'Womens T-Shirts',
     description: 'Short sleeve',
+    productId: 'gid://shopify/Product/8738559000809',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.PURPLE_MIST, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.GREAT_GREEN],
     light: [CUSTOM_COLORS.GREAT_GREEN, CUSTOM_COLORS.DEEP_WATER, CUSTOM_COLORS.RAIN_CLOUD, CUSTOM_COLORS.NAVY],
   },
   BLANKETS: {
     title: 'Blankets',
     description: '',
-    productId: 'gid://shopify/Product/8556361580777',
+    productId: 'gid://shopify/Product/8677102616809',
     dark: [CUSTOM_COLORS.COASTAL_BLUE, CUSTOM_COLORS.SUNSET_ROSE, CUSTOM_COLORS.SANDBAR, CUSTOM_COLORS.ATHLETIC_GREY],
     light: [],
-  },
-  NAVY_HOOD_SHOW: {
-    title: 'Hoodies Show Special',
-    description: '',
-    productId: 'gid://shopify/Product/8556361580777',
-    dark: [],
-    light: [CUSTOM_COLORS.WASHED_NAVY, CUSTOM_COLORS.BLACK],
   },
 };
 
@@ -172,7 +168,7 @@ export type PackSelection = {
   variantId: string;
   color: string;
   pack: string;
-  palette: 'dark' | 'light';
+  palette: 'dark' | 'light' | 'chenille';
   count: string;
   price: string;
 };
